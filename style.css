@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 49px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  color: #ff9900;
+  font-weight: bold;
+}
+
+p,
+a {
+  color: #7d7987;
+  margin-top: 27px;
+  font-size: 14px;
+
+  line-height: 28px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p span {
+  color: #ff9900;
+}
+
+.card-container {
+  width: 592px;
+  margin: 0 auto 72px;
+}
+
+.card-container img {
+  margin-bottom: 72px;
+}
+
+.divisor {
+  width: 568px;
+  height: 0px;
+  border: 1px solid #eceff2;
+  margin: 72px auto 8px;
+}
+
+/* Seletor a sempre vai perguntar, tem um <a> antes desse? se sim pega o a atual, e nesse caso é o Fale conosco */
+
+a + a {
+  margin-left: 28px;
+}
+
+.balls {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+a {
+  color: #ff9900;
+}
+
+footer {
+  margin-bottom: 33px;
+}
